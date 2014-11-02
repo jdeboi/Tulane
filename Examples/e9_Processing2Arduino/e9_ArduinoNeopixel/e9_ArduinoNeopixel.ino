@@ -2,7 +2,7 @@
 // Setup Neopixels
 #include <Adafruit_NeoPixel.h>
 #define PIN 2
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(4, PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(5, PIN, NEO_GRB + NEO_KHZ800);
  
 char val; // Data received from the serial port
 int neopixelNum = 2; // Set the pin to digital I/O 13
